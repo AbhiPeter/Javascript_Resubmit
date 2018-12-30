@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> assignment 2</title>
+</head>
+
+<body>
+    <script>
+        var employeeInformation = {
+            employeeName: "peter",
+            employeeId: 786,
+            basicSalary: 6500,
+            totalSalary: function () {
+                return (this.basicSalary + this.basicSalary * 12 / 100) - (this.basicSalary * 2 / 100);
+            }
+        }
+
+        console.log(employeeInformation.totalSalary());
+    </script>
+</body>
+
+</html>

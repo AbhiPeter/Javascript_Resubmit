@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> assignment 4 </title>
+</head>
+
+<body>
+    <script>
+        var person1 = {
+            id: 12,
+            firstName: "peter",
+            lastName: "Parker"
+
+        }
+        var person2 = {
+            id: 123,
+            firstName: "Ryan",
+            lastName: "watson"
+        }
+        var personArray = [person1, person2];
+        personArray.forEach(myfunction);
+
+        function myfunction(value, index, array) {
+            console.log(value.id);
+
+        }
+    </script>
+</body>
+
+</html>
